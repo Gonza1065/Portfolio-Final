@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+body {
+  background-color: #0f1010;
+}
+
+.navegation {
+  display: flex;
+  justify-content: start;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  border-bottom: 1px solid rgb(49, 49, 49);
+}
+
+.navegation a {
+  margin: 20px;
+  padding: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  list-style: none;
+  border: 1px solid #2f2e2d;
+  border-radius: 35px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}
+
+.navegation a:hover {
+  background-color: #ddf347;
+  transition: 0.5s;
+  color: black;
+  border: 1px solid black;
+}
+
+.my-name {
+  text-align: center;
+  margin-top: -100px;
+}
+
+.my-name h1 {
+  font-size: 100px;
+  font-family: "Playfair Display", serif;
+  color: #e1e1e0;
+}
+
+.my-name h1 span {
+  color: #ddf347;
+}
+
+.profession {
+  text-align: center;
+  margin-top: -110px;
+  color: #636464;
+}
+
+.profession h2 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.presentation {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  text-align: center;
+  align-items: center;
+}
+
+.img-me img {
+  height: 500px;
+  margin-top: -90px;
+}
+
+.info-me {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: start;
+}
