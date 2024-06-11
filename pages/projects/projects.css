@@ -102,7 +102,7 @@ body {
   border-radius: 15px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 700px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   .navegation {
     display: flex;
     justify-content: center;
@@ -117,11 +117,29 @@ body {
   }
 }
 
+@media only screen and (min-width: 501px) and (max-width: 700px) {
+  .navegation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  .main-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .projects {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 @media only screen and (min-width: 701px) and (max-width: 1000px) {
   .navegation {
     display: flex;
     justify-content: center;
-    padding-left: 40px;
   }
   .main-projects {
     display: flex;
